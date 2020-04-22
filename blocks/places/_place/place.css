@@ -9,9 +9,10 @@
 .place {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    grid-gap: 48px 40px;
+    grid-template-rows: repeat(2, auto);
     margin-bottom: 80px;
+    width: 100%;
+    grid-row-gap: 48px;
 }
 
 .place:last-of-type {

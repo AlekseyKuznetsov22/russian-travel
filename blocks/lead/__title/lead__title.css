@@ -1,9 +1,30 @@
 .lead__title {
     margin: auto;
-    font-family: Inter;
     font-style: normal;
     font-weight: bold;
     font-size: 96px;
     line-height: 100px;
     max-width: 720px;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: 720px;
+        margin: auto;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .lead {
+        max-width: 720px;
+        margin: auto;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .lead {
+        max-width: 288px;
+        margin: auto;
+        font-size: 40px;
+        line-height: 44px;
+    }
+  }

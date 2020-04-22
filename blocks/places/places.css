@@ -1,0 +1,6 @@
+@import url(./_place/place.css);
+
+.places {
+    max-width: 984px;
+    margin: 92px auto 0;
+}

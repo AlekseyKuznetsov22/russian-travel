@@ -1,29 +1,29 @@
 @import url(./__title/intro__title.css);
 @import url(./__text/intro__text.css);
-@import url(./__list/list.css);
+@import url(./__list/intro__list.css);
+@import url(./__list-row/intro__list-row.css);
+@import url(./__list-no-bold/intro__list-no-bold.css);
 
 .intro {
-    max-width: 984px;
     color: white;
-    margin: 92px auto;
+    margin: 92px 442px 92px 148px;
     display: flex;
     flex-direction: column;
     justify-items: start;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .intro {
-        max-width: 928px;
+        margin: 92px 286px 92px 48px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .intro {
-        max-width: 720px;
+        margin: 88px 24px;
     }
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 767px) {
     .intro {
-        max-width: 288px;
-        margin: 60px auto;
+        margin: 64px 16px;
     }
 }
